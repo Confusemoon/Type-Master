@@ -1,4 +1,5 @@
 # Type Master
+![屏幕截图 2025-05-12 080937](https://github.com/user-attachments/assets/aa9f00e2-f6c4-4ee6-bbf5-171c66567be7)
 
 A simple typing game with score tracking.
 
