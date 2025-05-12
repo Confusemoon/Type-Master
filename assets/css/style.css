@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+.container {
+    width: 1000px;
+    height: 80%;
+    margin-inline: auto;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+}
+
+body {
+    font-family: 'Share Tech Mono', monospace;
+    background: #1a1a1a;
+    color: rgb(33, 217, 226);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.game-area {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid rgb(33, 217, 226);
+}
+
+#word {
+    font-size: 2em;
+    margin: 20px 0;
+    letter-spacing: 2px;
+}
+
+input {
+    font-size: 1.2em;
+    padding: 10px;
+    width: 300px;
+    background: #222;
+    border: 1px solid rgb(33, 217, 226);
+    color: rgb(33, 217, 226);
+    margin: 10px 0;
+}
+
+button {
+    background: rgb(33, 217, 226);
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+button:hover {
+    background: rgb(33, 217, 226);
+}
+
+#scores-dialog {
+    background: #222;
+    color: rgb(33, 217, 226);
+    border: 2px solid rgb(33, 217, 226);
+    border-radius: 5px;
+}
+
+#scores-list {
+    margin: 20px 0;
+}
+
+.score-item {
+    padding: 5px 0;
+    border-bottom: 1px solid rgb(33, 217, 226);
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Haodi Hua">
+        <meta name="description" content="Assignment 3: Type Master">
+        <meta name="keywords" content="web development, html, css, javascript, winnipeg, canada">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+        <title>Assignment 3: Type Master</title>
+        <link rel="icon" href="./assets/img/favicon.png" type="image/png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/mrspecht/cdn/reset.css">
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <script src="./assets/js/game.js" type="module"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Type Master</h1>
+        <div class="game-area">
+            <p class="timer">Time: <span id="time">60</span></p>
+            <p class="score">Score: <span id="score">0</span></p>
+            <div id="word"></div>
+            <input type="text" id="input" placeholder="Start typing..." disabled>
+            <button id="start">Start Game</button>
+            <button id="restart" style="display: none;">Restart</button>
+            <button id="show-scores">High Scores</button>
+        </div>
+        
+        <dialog id="scores-dialog">
+            <div class="dialog-content">
+                <h2>Top Scores</h2>
+                <div id="scores-list"></div>
+                <button id="close-dialog">Close</button>
+            </div>
+        </dialog>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
